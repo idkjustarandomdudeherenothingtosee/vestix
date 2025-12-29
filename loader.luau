@@ -180,11 +180,11 @@ E.MouseButton1Click:Connect(
 makefolder("Avestix")
 local O = "Avestix/key.txt"
 local P = loadstring(game:HttpGet("https://sdkAPI-public.luarmor.net/library.lua"))()
-P.script_id = "53bfeeeca30266553e39e7e2a522336c"
+P.script_id = "d1aa67c6a7261a135d080fef132cb2aa"
 local Q = {
     [8795154789] = "https://api.luarmor.net/files/v3/loaders/89f9ee23e08f679c342cdae120d5338b.lua", -- flick
     [7326934954] = "https://api.luarmor.net/files/v3/loaders/53bfeeeca30266553e39e7e2a522336c.lua", -- 99 nights
-    [994732206] = "https://api.luarmor.net/files/v3/loaders/e4fff66beaee1c5d6c7b75d5df327cc6.lua", -- blox fruits
+    [994732206] = "https://api.luarmor.net/files/v3/loaders/d1aa67c6a7261a135d080fef132cb2aa.lua", -- blox fruits
     [8316902627] = "https://api.luarmor.net/files/v3/loaders/f020a6c36f648cab3f8cee0eebdd3930.lua", -- plants vs brainrots
     [6331902150] = "https://api.luarmor.net/files/v3/loaders/986f8c7d1a33f1040d7a3cdc02d5504b.lua", -- forsaken
     [6701277882] = "https://api.luarmor.net/files/v3/loaders/327c631d3c9431275e836232deae5c95.lua", -- fish it
