@@ -185,13 +185,7 @@ local Q = {
     [8795154789] = "https://api.luarmor.net/files/v3/loaders/89f9ee23e08f679c342cdae120d5338b.lua", -- flick
     [7326934954] = "https://api.luarmor.net/files/v3/loaders/53bfeeeca30266553e39e7e2a522336c.lua", -- 99 nights
     [994732206] = "https://api.luarmor.net/files/v3/loaders/d1aa67c6a7261a135d080fef132cb2aa.lua", -- blox fruits
-    [8316902627] = "https://api.luarmor.net/files/v3/loaders/f020a6c36f648cab3f8cee0eebdd3930.lua", -- plants vs brainrots
-    [6331902150] = "https://api.luarmor.net/files/v3/loaders/986f8c7d1a33f1040d7a3cdc02d5504b.lua", -- forsaken
-    [6701277882] = "https://api.luarmor.net/files/v3/loaders/327c631d3c9431275e836232deae5c95.lua", -- fish it
-    [7709344486] = "https://api.luarmor.net/files/v3/loaders/152436098dce50a55092dc524c4d485a.lua", -- steal a brainrot
-    [66654135] = "https://api.luarmor.net/files/v3/loaders/0cb08504db4379defa3e11f598619b2b.lua", -- murder mystery 2
-    [7671049560] = "https://api.luarmor.net/files/v3/loaders/355de71eff2440ed6fb18ca24f7919bd.lua" -- forge
-}
+    [6701277882] = "https://api.luarmor.net/files/v3/loaders/9ca5366324a996fe05b5302176f7ec00.lua" -- fish it}
 local function R(S)
     local T = P.check_key(S)
     if T.code == "KEY_VALID" then
