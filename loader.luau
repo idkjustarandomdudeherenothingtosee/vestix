@@ -184,7 +184,8 @@ local Q = {
     [8795154789] = "https://api.luarmor.net/files/v3/loaders/a9a93dc0a3fc1fb677f4142ab0d238cc.lua", -- flick
     [7326934954] = "https://api.luarmor.net/files/v3/loaders/8efdf2b752fa82f6ae22f68e145fcfdb.lua", -- 99 nights
     [994732206] = "https://api.luarmor.net/files/v3/loaders/d1aa67c6a7261a135d080fef132cb2aa.lua", -- blox fruits
-    [6701277882] = "https://api.luarmor.net/files/v3/loaders/9ca5366324a996fe05b5302176f7ec00.lua" -- fish it}
+    [6701277882] = "https://api.luarmor.net/files/v3/loaders/9ca5366324a996fe05b5302176f7ec00.lua" -- fish it
+}
 local function R(S)
     local T = P.check_key(S)
     if T.code == "KEY_VALID" then
