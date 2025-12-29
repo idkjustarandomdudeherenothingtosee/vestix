@@ -182,7 +182,7 @@ local O = "Avestix/key.txt"
 local P = loadstring(game:HttpGet("https://sdkAPI-public.luarmor.net/library.lua"))()
 P.script_id = "d1aa67c6a7261a135d080fef132cb2aa"
 local Q = {
-    [8795154789] = "https://api.luarmor.net/files/v3/loaders/89f9ee23e08f679c342cdae120d5338b.lua", -- flick
+    [8795154789] = "https://api.luarmor.net/files/v3/loaders/a9a93dc0a3fc1fb677f4142ab0d238cc.lua", -- flick
     [7326934954] = "https://api.luarmor.net/files/v3/loaders/53bfeeeca30266553e39e7e2a522336c.lua", -- 99 nights
     [994732206] = "https://api.luarmor.net/files/v3/loaders/d1aa67c6a7261a135d080fef132cb2aa.lua", -- blox fruits
     [6701277882] = "https://api.luarmor.net/files/v3/loaders/9ca5366324a996fe05b5302176f7ec00.lua" -- fish it}
@@ -196,9 +196,7 @@ local function R(S)
         r:Destroy()
         if Q[game.GameId] then
             loadstring(game:HttpGet(Q[game.GameId]))()
-        elseif game.PlaceId == 96342491571673 or game.PlaceId == 109983668079237 then
-            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/152436098dce50a55092dc524c4d485a.lua"))()
-        else
+                else
             c:Kick("Game not supported.")
         end
     elseif T.code:find("KEY_") then
