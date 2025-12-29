@@ -3,7 +3,6 @@ local b = game:GetService("TweenService")
 local c = a.LocalPlayer
 local d = Instance.new("ScreenGui")
 d.Name = "AvestixKeySystem"
-d.IgnoreGuiInset = true
 d.ResetOnSpawn = false
 d.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 d.Parent = c:WaitForChild("PlayerGui")
